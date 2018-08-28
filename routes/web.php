@@ -20,3 +20,11 @@ Route::get('/tecmilenio', function () {
 });
 
 Route::get('/alumno', 'Alumno\AlumnoController@index');
+
+Route::resource('alumno', 'Alumno\AlumnoController');
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

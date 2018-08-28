@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                  Bienvenido tio  {{ $name }}
+                  Bienvenido a mi super página, loggeate pa ir a sección de alumnos
                 </div>
 
                 <div class="links">
