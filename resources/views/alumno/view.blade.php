@@ -33,14 +33,16 @@
   </div>
     <div class="col-xs-12 col-sm-12 col-md-12">
       <div class="form-group">
-        <input disabled value="{{$alumno->updated_at}}" type="date" name="updated_at" id="updated_at" class="form-control input-sm" placeholder="Nombre">
+        <input disabled value="{{$alumno->updated_at}}" type="datetime" name="updated_at" id="updated_at" class="form-control input-sm" placeholder="Nombre">
       </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12">
       <div class="form-group">
-        <input disabled value="{{$alumno->created_at}}" type="date" name="created_at" id="created_at" class="form-control input-sm" placeholder="Nombre">
+        <input disabled value="{{$alumno->created_at}}" type="datetime" name="created_at" id="created_at" class="form-control input-sm" placeholder="Nombre">
       </div>
     </div>
+
+    <a class="btn btn-primary btn-lg" href="{{ route('alumno.index') }}" role="button">Regresar</a>
 
 @endsection
 @else
